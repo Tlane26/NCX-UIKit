@@ -41,6 +41,8 @@
 		1AA264DD2BBADF45002AED84 /* FeaturedPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA264DC2BBADF45002AED84 /* FeaturedPlaylistCollectionViewCell.swift */; };
 		1AA264DF2BBADF60002AED84 /* RecommendedTracksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA264DE2BBADF60002AED84 /* RecommendedTracksCollectionViewCell.swift */; };
 		1AA264E12BBB0F13002AED84 /* NewReleasesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA264E02BBB0F13002AED84 /* NewReleasesCellViewModel.swift */; };
+		1AA93E482BBB2852008481DE /* FeaturePlaylistCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA93E472BBB2852008481DE /* FeaturePlaylistCellViewModel.swift */; };
+		1AA93E4A2BBB2896008481DE /* RecommendedTrackCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA93E492BBB2896008481DE /* RecommendedTrackCellViewModel.swift */; };
 		2C5BAB847A15BDE0CEE46D65 /* Pods_SpotifyUIkitClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F32AB6BE558C998DE7003AB /* Pods_SpotifyUIkitClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,8 @@
 		1AA264DC2BBADF45002AED84 /* FeaturedPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
 		1AA264DE2BBADF60002AED84 /* RecommendedTracksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTracksCollectionViewCell.swift; sourceTree = "<group>"; };
 		1AA264E02BBB0F13002AED84 /* NewReleasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesCellViewModel.swift; sourceTree = "<group>"; };
+		1AA93E472BBB2852008481DE /* FeaturePlaylistCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturePlaylistCellViewModel.swift; sourceTree = "<group>"; };
+		1AA93E492BBB2896008481DE /* RecommendedTrackCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCellViewModel.swift; sourceTree = "<group>"; };
 		8F32AB6BE558C998DE7003AB /* Pods_SpotifyUIkitClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyUIkitClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB483ACE902BDAE804DEF71 /* Pods-SpotifyUIkitClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyUIkitClone.release.xcconfig"; path = "Target Support Files/Pods-SpotifyUIkitClone/Pods-SpotifyUIkitClone.release.xcconfig"; sourceTree = "<group>"; };
 		F7FDF2608C015499A9831233 /* Pods-SpotifyUIkitClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyUIkitClone.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyUIkitClone/Pods-SpotifyUIkitClone.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				1AA264E02BBB0F13002AED84 /* NewReleasesCellViewModel.swift */,
+				1AA93E472BBB2852008481DE /* FeaturePlaylistCellViewModel.swift */,
+				1AA93E492BBB2896008481DE /* RecommendedTrackCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -365,10 +371,12 @@
 				1AA264DF2BBADF60002AED84 /* RecommendedTracksCollectionViewCell.swift in Sources */,
 				1A88B6532BB3185100499B9F /* SearchViewController.swift in Sources */,
 				1AA264E12BBB0F13002AED84 /* NewReleasesCellViewModel.swift in Sources */,
+				1AA93E4A2BBB2896008481DE /* RecommendedTrackCellViewModel.swift in Sources */,
 				1A88B66E2BB3194400499B9F /* Playlist.swift in Sources */,
 				1A88B6682BB3191400499B9F /* AuthManager.swift in Sources */,
 				1AA264D42BBAC1DC002AED84 /* FeaturedPlaylistResponse.swift in Sources */,
 				1AA264D22BBABDE5002AED84 /* APIImage.swift in Sources */,
+				1AA93E482BBB2852008481DE /* FeaturePlaylistCellViewModel.swift in Sources */,
 				1A88B6662BB318F400499B9F /* SearchResultsViewController.swift in Sources */,
 				1A88B65C2BB318A400499B9F /* WelcomeViewController.swift in Sources */,
 				1A88B6602BB318BE00499B9F /* ProfileViewController.swift in Sources */,
